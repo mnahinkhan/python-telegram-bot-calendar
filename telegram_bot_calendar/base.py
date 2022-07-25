@@ -14,7 +14,7 @@ except ImportError:
 
 from telegram_bot_calendar.static import MONTHS, DAYS_OF_WEEK
 
-calendar.setfirstweekday(calendar.MONDAY)
+calendar.setfirstweekday(calendar.SUNDAY)
 
 CB_CALENDAR = "cbcal"
 
